@@ -1,6 +1,6 @@
 {
   "name": "@coldhands/eslint-config",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "index.js",
   "description": "My eslint config, I just like how this looks, the code seems more readable",
   "keywords": [

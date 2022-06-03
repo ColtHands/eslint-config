@@ -15,9 +15,12 @@ module.exports = {
         'jquery': true
     },
     extends: [
+        'eslint:recommended',
         'plugin:react/recommended'
     ],
     rules: {
+        'for-direction': ['warn'],
+        'array-callback-return': ['warn', { checkForEach: true }],
         'space-in-parens': ['warn', 'never'],
         'no-prototype-builtins': ['off', 'never'],
         'semi': ['warn', 'never'],
