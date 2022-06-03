@@ -8,3 +8,5 @@ function testingIdentation(    ) {
 }
 
 testingIdentation()
+
+(function() { return 'bar' }())
