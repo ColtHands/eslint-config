@@ -1,6 +1,6 @@
 {
   "name": "@coldhands/eslint-config",
-  "version": "2.0.0",
+  "version": "2.0.9",
   "main": "index.js",
   "description": "My eslint config, I just like how this looks, the code seems more readable",
   "keywords": [
@@ -8,7 +8,7 @@
     "eslint-config"
   ],
   "scripts": {
-    "test": "eslint ./src/*test.*"
+    "test": "eslint ./test/*test.*"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/ColtHands/eslint-config#readme",
   "peerDependencies": {
+    "@babel/core": "^7.18.2",
     "@babel/eslint-parser": "^7.18.2",
     "@babel/plugin-proposal-decorators": "^7.18.2",
     "@babel/plugin-proposal-nullish-coalescing-operator": "^7.17.12",
@@ -35,6 +36,7 @@
     "eslint-plugin-react": "^7.30.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.18.2",
     "@babel/eslint-parser": "^7.18.2",
     "@babel/plugin-proposal-decorators": "^7.18.2",
     "@babel/plugin-proposal-nullish-coalescing-operator": "^7.17.12",
