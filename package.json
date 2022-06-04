@@ -1,6 +1,6 @@
 {
   "name": "@coldhands/eslint-config",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "main": "index.js",
   "description": "My eslint config, I just like how this looks, the code seems more readable",
   "keywords": [
@@ -35,7 +35,7 @@
     "eslint": "^8.16.0",
     "eslint-plugin-react": "^7.30.0"
   },
-  "devDependencies": {
+  "dependencies": {
     "@babel/core": "^7.18.2",
     "@babel/eslint-parser": "^7.18.2",
     "@babel/plugin-proposal-decorators": "^7.18.2",
