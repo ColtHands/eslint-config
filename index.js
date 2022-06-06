@@ -1,7 +1,13 @@
 module.exports = {
     parser: '@babel/eslint-parser',
     parserOptions: {
-        'ecmaVersion': 2020
+        ecmaVersion: 2020,
+        requireConfigFile: false,
+        babelOptions: {
+            babelrc: false,
+            configFile: false,
+            presets: ['@babel/preset-env']
+        }
     },
     globals: {
         window: true,
