@@ -1,6 +1,6 @@
 {
   "name": "@coldhands/eslint-config",
-  "version": "2.0.14",
+  "version": "2.0.15",
   "main": "index.js",
   "description": "My eslint config, I just like how this looks, the code seems more readable",
   "keywords": [
@@ -53,6 +53,7 @@
     "typescript": "^4.7.2"
   },
   "dependencies": {
+    "@babel/core": "^7.18.2",
     "@babel/eslint-parser": "^7.18.2"
   }
 }
