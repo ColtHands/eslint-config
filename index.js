@@ -88,7 +88,8 @@ module.exports = {
         {
             files: ['*.ts', '*.tsx'],
             rules: {
-                'no-undef': 'off'
+                'no-undef': 'off',
+                'no-unused-vars': 'off'
             }
         }
     ]

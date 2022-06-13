@@ -1,3 +1,3 @@
-export interface Asd = {
+export interface Asd {
     hello: boolean;
 }
