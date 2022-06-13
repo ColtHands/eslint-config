@@ -34,7 +34,11 @@ module.exports = {
         'key-spacing': 'warn',
         'switch-colon-spacing': 'warn',
         'space-before-blocks': 'warn',
-        'space-before-function-paren': ['warn', 'never'],
+        'space-before-function-paren': ['warn', {
+            'anonymous': 'always',
+            'named': 'never',
+            'asyncArrow': 'always'
+        }],
         'comma-spacing': ['warn', { 'before': false, 'after': true }],
         'arrow-spacing': 'warn',
         'no-unreachable': 'warn',
