@@ -83,5 +83,13 @@ module.exports = {
                 'functions': 'never'
             }
         ]
-    }
+    },
+    overrides: [
+        {
+            files: ['*.ts', '*.tsx'],
+            rules: {
+                'no-undef': 'off'
+            }
+        }
+    ]
 }
