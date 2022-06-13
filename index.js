@@ -29,6 +29,7 @@ module.exports = {
         'plugin:react/recommended'
     ],
     rules: {
+        'react/react-in-jsx-scope': 'off',
         'no-template-curly-in-string': 'off',
         'no-self-compare': 'warn',
         'for-direction': 'warn',
