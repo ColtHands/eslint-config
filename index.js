@@ -26,9 +26,7 @@ module.exports = {
         'jquery': true,
         'jest': true
     },
-    extends: [
-        'eslint:recommended',
-    ],
+    extends: 'eslint:recommended',
     rules: {
         'array-bracket-spacing': ['warn', 'never'],
         'array-callback-return': ['warn', { checkForEach: true }],
