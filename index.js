@@ -2,17 +2,7 @@ module.exports = {
     root: true,
     parser: '@babel/eslint-parser',
     parserOptions: {
-        ecmaVersion: 2020,
-        requireConfigFile: false,
-        babelOptions: {
-            babelrc: false,
-            configFile: false,
-            presets: [
-                '@babel/preset-env',
-                '@babel/preset-react',
-                '@babel/preset-typescript'
-            ]
-        }
+        ecmaVersion: "latest",
     },
     globals: {
         window: true,
@@ -80,6 +70,9 @@ module.exports = {
         'switch-colon-spacing': 'warn'
     },
     overrides: [
+        {
+            files: ['*.js', '*.cjs'],
+        },
         {
             files: ['*.ts', '*.tsx'],
             rules: {
