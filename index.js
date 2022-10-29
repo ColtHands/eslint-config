@@ -2,7 +2,7 @@ module.exports = {
     root: true,
     parser: '@babel/eslint-parser',
     parserOptions: {
-        ecmaVersion: "latest",
+        ecmaVersion: 'latest'
     },
     globals: {
         window: true,
@@ -71,7 +71,7 @@ module.exports = {
     },
     overrides: [
         {
-            files: ['*.js', '*.cjs'],
+            files: ['*.js', '*.cjs']
         },
         {
             files: ['*.ts', '*.tsx'],
