@@ -2,7 +2,17 @@ module.exports = {
     root: true,
     parser: '@babel/eslint-parser',
     parserOptions: {
-        ecmaVersion: 'latest'
+        ecmaVersion: 'latest',
+        requireConfigFile: false,
+        babelOptions: {
+            babelrc: false,
+            configFile: false,
+            presets: [
+                '@babel/preset-env',
+                '@babel/preset-react',
+                '@babel/preset-typescript'
+            ]
+        }
     },
     globals: {
         window: true,
@@ -75,6 +85,9 @@ module.exports = {
         },
         {
             files: ['*.ts', '*.tsx'],
+            extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended'],
+            parser: '@typescript-eslint/parser',
+            plugins: ['@typescript-eslint'],
             rules: {
                 'no-undef': 'off',
                 'no-unused-vars': 'off'
