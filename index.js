@@ -127,7 +127,12 @@ module.exports = {
                 'vue/html-closing-bracket-newline': 'warn',
                 'vue/html-closing-bracket-spacing': 'warn',
                 'vue/html-end-tags': 'warn',
-                'vue/html-indent': 'warn',
+                'vue/html-indent': ['error', 4, {
+                    attribute: 1,
+                    baseIndent: 1,
+                    closeBracket: 0,
+                    alignAttributesVertically: true
+                }],
                 'vue/html-quotes': 'warn',
                 'vue/html-self-closing': 'warn',
                 'vue/jsx-uses-vars': 'error',
