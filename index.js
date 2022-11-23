@@ -137,7 +137,7 @@ module.exports = {
                 'vue/html-self-closing': 'warn',
                 'vue/jsx-uses-vars': 'error',
                 'vue/max-attributes-per-line': 'warn',
-                'vue/multi-word-component-names': 'error',
+                'vue/multi-word-component-names': 'off',
                 'vue/multiline-html-element-content-newline': 'warn',
                 'vue/mustache-interpolation-spacing': 'warn',
                 'vue/no-arrow-functions-in-watch': 'error',
