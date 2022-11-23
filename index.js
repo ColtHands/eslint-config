@@ -173,7 +173,7 @@ module.exports = {
                 'vue/no-lone-template': 'warn',
                 'vue/no-multi-spaces': 'warn',
                 'vue/no-multiple-slot-args': 'warn',
-                'vue/no-multiple-template-root': 'error',
+                'vue/no-multiple-template-root': 'off',
                 'vue/no-mutating-props': 'error',
                 'vue/no-parsing-error': 'error',
                 'vue/no-ref-as-operand': 'error',
