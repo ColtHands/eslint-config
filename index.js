@@ -136,7 +136,11 @@ module.exports = {
                 'vue/html-quotes': 'warn',
                 'vue/html-self-closing': 'warn',
                 'vue/jsx-uses-vars': 'error',
-                'vue/max-attributes-per-line': 'warn',
+                'vue/max-attributes-per-line': ['warn', {
+                    singleline: {
+                        max: 2
+                    }
+                }],
                 'vue/multi-word-component-names': 'off',
                 'vue/multiline-html-element-content-newline': 'warn',
                 'vue/mustache-interpolation-spacing': 'warn',
