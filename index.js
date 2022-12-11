@@ -141,7 +141,7 @@ module.exports = {
                 'vue/jsx-uses-vars': 'error',
                 'vue/max-attributes-per-line': ['warn', {
                     singleline: {
-                        max: 2
+                        max: 3
                     }
                 }],
                 'vue/multi-word-component-names': 'off',
