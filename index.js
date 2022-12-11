@@ -146,7 +146,7 @@ module.exports = {
                 }],
                 'vue/multi-word-component-names': 'off',
                 'vue/multiline-html-element-content-newline': 'warn',
-                'vue/mustache-interpolation-spacing': 'warn',
+                'vue/mustache-interpolation-spacing': ['warn', 'never'],
                 'vue/no-arrow-functions-in-watch': 'error',
                 'vue/no-async-in-computed-properties': 'error',
                 'vue/no-child-content': 'error',
