@@ -221,7 +221,7 @@ module.exports = {
                 'vue/require-valid-default-prop': 'error',
                 'vue/return-in-computed-property': 'error',
                 'vue/return-in-emits-validator': 'error',
-                'vue/singleline-html-element-content-newline': ['warn', 'never'],
+                'vue/singleline-html-element-content-newline': ['off'],
                 'vue/this-in-template': 'warn',
                 'vue/use-v-on-exact': 'error',
                 'vue/v-bind-style': 'warn',
