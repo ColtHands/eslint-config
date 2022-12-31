@@ -1,13 +1,18 @@
-var testingQoutes = "hello"
+var testingQuotes = "hello"
 var testingSemicolon = 123;
 let testingPreferConst = 123;
 
-// TODO Space inside empy function call
-function testingIdentation(    ) {
+// TODO Space inside empty function call
+
+/**
+ * @description Logs out hello world.
+ * @returns {void}
+ */
+function testingIndentation() {
     console.log('hello world')
 }
 
-testingIdentation()
+testingIndentation()
 
 (function() { return 'bar' }())
 
