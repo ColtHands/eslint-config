@@ -1,6 +1,6 @@
 {
   "name": "@coldhands/eslint-config",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "main": "index.js",
   "description": "My eslint config, I just like how this looks, the code seems more readable",
   "keywords": [
@@ -39,7 +39,7 @@
     "eslint-plugin-import": "^2.28.1",
     "eslint-plugin-jsdoc": "^39.6.4",
     "eslint-plugin-react": "^7.31.10",
-    "eslint-plugin-vue": "^9.7.0",
+    "eslint-plugin-vue": "^9.17.0",
     "typescript": "^5.2.2"
   }
 }
