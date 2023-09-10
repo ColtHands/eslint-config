@@ -1,3 +1,54 @@
+const { getPackageInfoSync } = require('local-pkg')
+
+const nuxtPackage = getPackageInfoSync('nuxt')
+
+const nuxtGlobals = {
+    useAppConfig: 'readonly',
+    useAsyncData: 'readonly',
+    useCookie: 'readonly',
+    useError: 'readonly',
+    useFetch: 'readonly',
+    useHeadSafe: 'readonly',
+    useHead: 'readonly',
+    useHydration: 'readonly',
+    useLazyAsyncData: 'readonly',
+    useLazyFetch: 'readonly',
+    useNuxtApp: 'readonly',
+    useNuxtData: 'readonly',
+    useRequestEvent: 'readonly',
+    useRequestHeaders: 'readonly',
+    useRequestURL: 'readonly',
+    useRoute: 'readonly',
+    useRouter: 'readonly',
+    useRuntimeConfig: 'readonly',
+    useSeoMeta: 'readonly',
+    useServerSeoMeta: 'readonly',
+    useState: 'readonly',
+    $fetch: 'readonly',
+    abortNavigation: 'readonly',
+    addRouteMiddleware: 'readonly',
+    clearError: 'readonly',
+    clearNuxtData: 'readonly',
+    clearNuxtState: 'readonly',
+    createError: 'readonly',
+    defineNuxtComponent: 'readonly',
+    defineNuxtRouteMiddleware: 'readonly',
+    definePageMeta: 'readonly',
+    navigateTo: 'readonly',
+    onBeforeRouteLeave: 'readonly',
+    onBeforeRouteUpdate: 'readonly',
+    onNuxtReady: 'readonly',
+    prefetchComponents: 'readonly',
+    preloadComponents: 'readonly',
+    preloadRouteComponents: 'readonly',
+    refreshNuxtData: 'readonly',
+    reloadNuxtApp: 'readonly',
+    setPageLayout: 'readonly',
+    setResponseStatus: 'readonly',
+    showError: 'readonly',
+    updateAppConfig: 'readonly'
+}
+
 module.exports = {
     root: true,
     parser: '@babel/eslint-parser',
@@ -171,6 +222,9 @@ module.exports = {
             extends: [
                 'plugin:vue/vue3-recommended'
             ],
+            globals: {
+                ...(nuxtPackage ? nuxtGlobals : {})
+            },
             parser: 'vue-eslint-parser',
             parserOptions: {
                 parser: '@typescript-eslint/parser'
@@ -309,4 +363,4 @@ module.exports = {
             }
         }
     ]
-};
+}
