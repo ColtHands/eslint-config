@@ -11,7 +11,7 @@
     "save": "git status && git add . && git commit -m save && git push",
     "test": "eslint ./test/*test.*",
     "reset": "rm -rf node_modules && pnpm i",
-    "snp": "pnpm save && pnpm publish"
+    "snp": "pnpm save && pnpm publish "
   },
   "repository": {
     "type": "git",
@@ -36,6 +36,10 @@
     "eslint-plugin-jsdoc": "^39.6.4",
     "eslint-plugin-react": "^7.31.10",
     "eslint-plugin-vue": "^9.7.0",
-    "typescript": "^4.8.4"
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^12.0.0",
+    "@nuxtjs/eslint-config-typescript": "^12.1.0"
   }
 }

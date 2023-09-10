@@ -26,7 +26,11 @@ module.exports = {
         jquery: true,
         jest: true
     },
-    extends: 'eslint:recommended',
+    extends: [
+        'eslint:recommended',
+        '@nuxtjs/eslint-config',
+        '@nuxtjs/eslint-config-typescript'
+    ],
     rules: {
         'array-bracket-newline': ['warn', 'consistent'],
         'array-bracket-spacing': ['warn', 'never'],
@@ -190,7 +194,7 @@ module.exports = {
                     alignAttributesVertically: true
                 }],
                 'vue/html-quotes': 'warn',
-                'vue/html-self-closing': 'warn',
+                'vue/html-self-closing': 'off',
                 'vue/jsx-uses-vars': 'error',
                 'vue/max-attributes-per-line': ['warn', {
                     singleline: {
@@ -307,4 +311,4 @@ module.exports = {
             }
         }
     ]
-}
+};
