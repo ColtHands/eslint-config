@@ -1,6 +1,6 @@
 {
   "name": "@coldhands/eslint-config",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "main": "index.js",
   "description": "My eslint config, I just like how this looks, the code seems more readable",
   "keywords": [
@@ -32,8 +32,8 @@
     "@nuxt/eslint-config": "^0.2.0",
     "@nuxtjs/eslint-config": "^12.0.0",
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
-    "@typescript-eslint/eslint-plugin": "^5.41.0",
-    "@typescript-eslint/parser": "^5.41.0",
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0",
     "eslint": "^8.26.0",
     "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-import": "^2.28.1",
