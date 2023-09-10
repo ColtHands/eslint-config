@@ -27,9 +27,7 @@ module.exports = {
         jest: true
     },
     extends: [
-        'eslint:recommended',
-        '@nuxtjs/eslint-config',
-        '@nuxtjs/eslint-config-typescript'
+        'eslint:recommended'
     ],
     rules: {
         'array-bracket-newline': ['warn', 'consistent'],
@@ -175,7 +173,7 @@ module.exports = {
             ],
             parser: 'vue-eslint-parser',
             parserOptions: {
-                parser: '@typescript-eslint/parser',
+                parser: '@typescript-eslint/parser'
             },
             rules: {
                 'vue/attribute-hyphenation': 'warn',

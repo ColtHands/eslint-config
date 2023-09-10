@@ -3,7 +3,7 @@
 </template>
 
 <script>
-useHeads({
+useHead({
     title: 'header'
-})
+});
 </script>
