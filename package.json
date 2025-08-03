@@ -1,6 +1,6 @@
 {
   "name": "@coldhands/eslint-config",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "main": "eslint.config.js",
   "type": "module",
   "description": "My eslint config, I just like how this looks, the code seems more readable",
