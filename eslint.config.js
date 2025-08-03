@@ -400,7 +400,7 @@ const vueConfig = {
         'vue/no-reserved-component-names': 'error',
         'vue/no-reserved-keys': 'error',
         'vue/no-reserved-props': ['error', { vueVersion: 2 }],
-        'vue/vue/no-setup-props-reactivity-loss': 'error',
+        'vue/no-setup-props-reactivity-loss': 'error',
         'vue/no-shared-component-data': 'error',
         'vue/no-side-effects-in-computed-properties': 'error',
         'vue/no-spaces-around-equal-signs-in-attribute': 'warn',
