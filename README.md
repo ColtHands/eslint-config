@@ -1,12 +1,7 @@
-### Usage example
-* `npm i @coldhands/eslint-config --save-dev`
-* `yarn add @coldhands/eslint-config --dev`
-* `pnpm add @coldhands/eslint-config --save-dev`
+My awesome and super complete eslint config.
 
-__eslintrc.cjs__
-```csj
-module.exports = {
-	root: true,
-	extends: '@coldhands',
-}
-```
+### TODO
+
+- Add sonar lint
+- Add test linter
+- Add oxlint option?
